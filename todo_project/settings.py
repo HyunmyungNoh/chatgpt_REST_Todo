@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-q&acjpc!!elk#gvoa7b$)e+g=vn6k)n^1+3m7*bq$(rs9-4b4d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['chatgpt-rest-todo.onrender.com', 'localhost', '127.0.0.1']
 
@@ -124,6 +124,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+'''
 import sys
 
 LOGGING = {
@@ -142,3 +143,4 @@ LOGGING = {
         },
     },
 }
+'''
